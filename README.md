@@ -19,12 +19,14 @@ const webpackConfig = {
             remoteDeployPath: '/home/remote/services/app',
             restart: true,
             serviceName: 'app'      
-        }),
+        }, true),
     ],
 };
 
 module.exports = webpackConfig;
 ```
+
+The last parameter of the constructor is a flag that controls whether the plugin will be executed. This is useful if you have a variable that tells you when webpack is running for production of development.
 
 The plugin will run after each successful build
 
