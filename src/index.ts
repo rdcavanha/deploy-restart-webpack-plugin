@@ -17,10 +17,10 @@ export class DeployRestartWebpackPlugin {
                     new DeployRestart(this.options)
                         .start()
                         .then(() => {
-                            console.info('DeployRestartWebpackPlugin succeeded');
+                            console.info(`Deploy completed successfully`);
                         })
                         .catch(err => {
-                            console.error('DeployRestartWebpackPlugin failed', err);
+                            console.error('Deploy failed', err);
                         });
             });
     }
