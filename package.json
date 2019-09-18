@@ -1,0 +1,32 @@
+{
+  "name": "deploy-restart-webpack-plugin",
+  "version": "1.0.0",
+  "description": "A webpack plugin wrapper for the deploy-restart module",
+  "main": "src/index.ts",
+  "scripts": {
+    "prepare": "tsc",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdcavanha/deploy-restart-webpack-plugin.git"
+  },
+  "keywords": [
+    "deploy-restart",
+    "webpack",
+    "plugin"
+  ],
+  "author": "Rodrigo Cavanha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rdcavanha/deploy-restart-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/rdcavanha/deploy-restart-webpack-plugin#readme",
+  "dependencies": {
+    "deploy-restart": "^1.1.3"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.5",
+    "typescript": "^3.6.3"
+  }
+}
