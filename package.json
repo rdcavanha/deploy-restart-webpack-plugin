@@ -1,6 +1,6 @@
 {
   "name": "deploy-restart-webpack-plugin",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A webpack plugin wrapper for the deploy-restart module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -27,7 +27,7 @@
     "deploy-restart": "^1.1.4"
   },
   "devDependencies": {
-    "@types/node": "^12.7.5",
-    "typescript": "^3.6.3"
+    "@types/node": "^13.11.0",
+    "typescript": "^3.8.3"
   }
 }
